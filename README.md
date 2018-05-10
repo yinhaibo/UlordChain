@@ -58,6 +58,15 @@ Configure and build
 ### Run
 
     cd src && ./ulordd -daemon # use ./ulord-cli to make rpc call
+    
+    you can get help from command line help:
+    ./ulord-cli help
+    
+    you can get base information by:
+    ./ulord-cli getinfo
+    
+    you can start to mine
+    ./ulord-cli setgenerate true
 
 Development Process
 -------------------
